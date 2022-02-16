@@ -25,7 +25,6 @@ steps:
     python -m pip install --upgrade pip
     pip install setup
     pip install -r requirements.txt
-  workingDirectory: $(projectRoot)
   displayName: 'Install dependencies'
 
 - script: |
